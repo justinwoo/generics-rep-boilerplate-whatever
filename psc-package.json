@@ -1,0 +1,10 @@
+{
+  "name": "whatever",
+  "set": "020918",
+  "source": "https://github.com/justinwoo/spacchetti.git",
+  "depends": [
+    "console",
+    "generics-rep",
+    "prelude"
+  ]
+}
