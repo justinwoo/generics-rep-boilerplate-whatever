@@ -38,7 +38,6 @@ instance boundedEnumTYPENAME ∷ BoundedEnum TYPENAME where
 
 my @types = split(/\n/, $types);
 my @constructors = ();
-my @typenames = ();
 foreach $type (@types) {
     $type =~ /data (\w+) =/ || next;
     push(@constructors, $1);
